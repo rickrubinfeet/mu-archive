@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" rel="stylesheet">
+  <link href="./output.css" rel="stylesheet">
+  <title>shitpost deva</title>
+  <style>
+html, body {
+  overflow-x: hidden; 
+  width: 100%; 
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  background-size: 20rem;
+  background-position: center; 
+  background-attachment: fixed;
+}
+
+.main {
+  overflow-x: hidden; 
+}
+
+.container {
+  width: 100%; 
+  max-width: 60.938rem; 
+  margin: 0 auto; 
+  padding: 0 1rem; 
+}
+
+.nav-pad {
+  padding-top: 0.4rem;
+}
+
+.custom-font {
+  font-family: 'Pinyon Script', cursive;
+}
+
+a:hover p {
+  text-decoration: underline;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; 
+}  
+
+
+
+    @media (max-width: 640px) {
+      html, body {
+        overflow-x: hidden;
+      }
+  
+      .container {
+        width: 100%;
+        padding: 0 1rem;
+      }
+      nav ul {
+        justify-content: center;
+      }
+  
+      img {
+        height: auto;
+        width: 100%;
+      }
+  
+      .banner{
+        object-fit: cover;
+        height: 8rem;
+      }
+
+      .grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+  
+      .content {
+        flex-direction: column; 
+      }
+  
+      .profil {
+        margin: 0 auto;
+        width: 100%; 
+      }  
+
+      .w-36 {
+        width: 6rem; 
+      }
+  
+      .custom-font {
+        font-size: 1.5rem;
+      }
+  
+      .discography-wrap {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr)); 
+        justify-items: center; 
+      }
+
+      .discography-img {
+        width: 100%; 
+        max-width: 8rem; 
+        margin: 0;
+      }  
+      
+      .discography-img p {
+        width: 8rem; 
+      }  
+      
+      .profil {
+        margin-left: 0.5rem;
+        margin-bottom: 2rem;
+        margin-top: 3rem;
+      }
+  
+      .instagram {
+        margin-top: 5px;
+      }
+    }
+  </style>
+</head>
+<body style="background-image: url('/assets/bg.png'); background-position: top center; background-size: 30rem;">
+  <div class="container mx-auto text-center bg-black pb-12">
+    <img class="banner items-center object-fill h-44 w-full" src="/assets/banner2.png" alt="">
+    <nav class="mb-6">
+      <ul class="flex mx-6 gap-4 text-white">
+        <li class="text-base px-4 pt-1 font-semibold border-t-2 border-gray-400">
+          <a href="index.html">music</a>
+        </li>
+        <li class="text-base px-4 pt-1 font-semibold border-t-2 border-transparent hover:border-white transition-all duration-200">
+          <a href="video.html">video</a>
+        </li>
+        <li class="text-base px-4 pt-1 font-semibold border-t-2 border-transparent hover:border-white transition-all duration-200">
+          <a href="about.html">about</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Discography and Profile -->
+    <div class="content container">
+      <!-- Discography -->
+      <div class="discography-wrap grid grid-cols-3 sm:grid-cols-3 gap-4 justify-center">
+        <a class="discography-img mx-2 mb-4 w-52" href="bertaut.html">
+          <img class="w-52" src="/assets/bertaut.png" alt="BERTAUT MIXXX img">
+          <p class="my-1 font-semibold text-white text-left leading-tight">BERTAUT MIXXX</p>
+        </a>
+        <a class="discography-img mx-2 mb-4 w-52" href="lingerkoplo.html">
+          <img class="w-52" src="/assets/denny.png " alt="LINGER TENAN img">
+          <p class="my-1 font-semibold text-white text-left leading-tight">LINGER TENAN</p>
+        </a>
+        <a class="discography-img mx-2 mb-4 w-52" href="seandainyajerk.html">
+          <img class="w-52" src="/assets/vierra jerk.png " alt="seandainya JERK img">
+          <p class="my-1 font-semibold text-white text-left leading-tight">seandainya JERK</p>
+        </a>
+        <a class="discography-img mx-2 mb-4 w-52" href="meow2112.html">
+          <img class="w-52" src="/assets/meow2112.jpeg " alt="meow2112 img">
+          <p class="my-1 font-semibold text-white text-left leading-tight">meow2112</p>
+        </a>
+        <a class="discography-img mx-2 mb-4 w-52" href="kufakugaze.html">
+          <img class="w-52" src="/assets/kufaku.png " alt="kufakugaze img">
+          <p class="my-1 font-semibold text-white text-left leading-tight">kufaku</p>
+        </a>
+        <a class="discography-img mx-2 mb-4 w-52" href="ins16122023.html">
+          <img class="w-52" src="/assets/16122023.png " alt="untitled-16122023 img">
+          <p class="my-1 font-semibold text-white text-left leading-tight">untitled-16122023</p>
+        </a>
+        <a class="discography-img mx-2 mb-4 w-52" href="seasons.html">
+          <img class="w-52" src="/assets/seasons.jpg " alt="seasons' img">
+          <p class="my-1 font-semibold text-white text-left leading-tight">seasons'</p>
+        </a>
+        <a class="discography-img mx-2 mb-4 w-52" href="ins11012023.html">
+          <img class="w-52" src="/assets/untitled.png " alt="untitled-11012023 img">
+          <p class="my-1 font-semibold text-white text-left leading-tight">untitled-11012023</p>
+        </a>
+        <a class="discography-img mx-2 mb-4 w-52" href="esperanza.html">
+          <img class="w-52" src="/assets/null.png " alt="esperanza img">
+          <p class="my-1 font-semibold text-white text-left leading-tight">esperanza flip</p>
+        </a>
+        <a class="discography-img mx-2 mb-4 w-52" href="hadwings.html">
+          <img class="w-52" src="/assets/had wings.png " alt="had wings img">
+          <p class="my-1 font-semibold text-white text-left leading-tight">had wings</p>
+        </a>
+        <a class="discography-img mx-2 mb-4 w-52" href="ins23112022.html">
+          <img class="w-52" src="/assets/untitled.png " alt="untitled-23112022 img">
+          <p class="my-1 font-semibold text-white text-left leading-tight">untitled-23112022</p>
+        </a>
+        <a class="discography-img mx-2 mb-4 w-52" href="senam.html">
+          <img class="w-52" src="/assets/senam.jpg " alt="">
+          <p class="my-1 font-semibold text-white text-left leading-tight">SENAM DEWATA DRILL</p>
+        </a>
+        <a class="discography-img mx-2 mb-4 w-52" href="curikcurik.html">
+          <img class="w-52" src="/assets/null.png " alt="">
+          <p class="my-1 font-semibold text-white text-left leading-tight">CURIK CURIK MEMPHIS</p>
+        </a>
+        <a class="discography-img mx-2 mb-4 w-52" href="semesta.html">
+          <img class="w-52" src="/assets/null.png " alt="">
+          <p class="my-1 font-semibold text-white text-left leading-tight">SEMESTA BOOTLEG</p>
+        </a>
+        <a class="discography-img mx-2 mb-4 w-52" href="welkamtuml.html">
+          <img class="w-52" src="/assets/null.png " alt="">
+          <p class="my-1 font-semibold text-white text-left leading-tight">welcome to mobile legends</p>
+        </a>
+        <a class="discography-img mx-2 mb-4 w-52" href="vierra.html">
+          <img class="w-52" src="/assets/null.png " alt="">
+          <p class="my-1 font-semibold text-white text-left leading-tight">VIERRA BOOTLEG</p>
+        </a>
+        <a class="discography-img mx-2 mb-4 w-52" href="lostinureyes.html">
+          <img class="w-52" src="/assets/null.png " alt="">
+          <p class="my-1 font-semibold text-white text-left leading-tight">original title is too cringe so imma call this puki</p>
+        </a>
+        <a class="discography-img mx-2 mb-4 w-52" href="pkidnb.html">
+          <img class="w-52" src="/assets/null.png " alt="">
+          <p class="my-1 font-semibold text-white text-left leading-tight">ANDA BUKAN MERAH ANDA SAYA BUNUH</p>
+        </a>
+        <a class="discography-img mx-2 mb-4 w-52" href="hopes.html">
+          <img class="w-52" src="/assets/null.png " alt="">
+          <p class="my-1 font-semibold text-white text-left leading-tight">HOPES.</p>
+        </a>
+        <a class="discography-img mx-2 mb-4 w-52" href="ether.html">
+          <img class="w-52" src="/assets/null.png " alt="">
+          <p class="my-1 font-semibold text-white text-left leading-tight">ETHER.</p>
+        </a>
+        <a class="discography-img mx-2 mb-4 w-52" href="safe.html">
+          <img class="w-52" src="/assets/null.png " alt="">
+          <p class="my-1 font-semibold text-white text-left leading-tight">SAFESAFESAFE.</p>
+        </a>
+        <a class="discography-img mx-2 mb-4 w-52" href="jojokoplo.html">
+          <img class="w-52" src="/assets/null.png " alt="">
+          <p class="my-1 font-semibold text-white text-left leading-tight">SONO CHI NO SADAME KOPLO</p>
+        </a>
+        <a class="discography-img mx-2 mb-4 w-52" href="himehimefunkot.html">
+          <img class="w-52" src="/assets/null.png " alt="">
+          <p class="my-1 font-semibold text-white text-left leading-tight">HIME HIME BOOTLEG</p>
+        </a>
+        <a class="discography-img mx-2 mb-4 w-52" href="hatusnemikutrap.html">
+          <img class="w-52" src="/assets/null.png " alt="">
+          <p class="my-1 font-semibold text-white text-left leading-tight">hatusnemikutrap</p>
+        </a>
+        <a class="discography-img mx-2 mb-4 w-52" href="project1.html">
+          <img class="w-52" src="/assets/null.png " alt="">
+          <p class="my-1 font-semibold text-white text-left leading-tight">untitled-09072018</p>
+        </a>
+        <a class="discography-img mx-2 mb-4 w-52" href="project2.html">
+          <img class="w-52" src="/assets/null.png " alt="">
+          <p class="my-1 font-semibold text-white text-left leading-tight">untitled-18072018</p>
+        </a>
+      </div>
+
+      <!-- Profile -->
+      <div class="profil w-44">
+        <a href="index.html"><img class="w-36" src="/assets/test.png" alt="">
+        <p class="nama mt-2 text-sm font-bold text-left text-white break-words">Deva / rickrubinfeet / DJ Orphan Abuser</p></a>
+        <p class="alamat text-sm text-left text-neutral-300 break-words">Bali, Indonesia</p>
+        <p class="deskripsi text-sm text-left text-white break-words">mostly shitpost</p>
+        <div class="instagram text-left mt-1">
+          <a href="https://www.instagram.com/devaism/"><i class="fa-brands fa-instagram text-lg text-left text-white"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-6 bg-black h-24 flex items-center justify-center">
+    <p class="custom-font text-center font-bold text-white text-2xl ">lemo bangsat ci jak onyo <br> fuck bandcamp </p>
+  </div>
+</div>
+</body>
+</html>
